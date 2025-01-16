@@ -15,7 +15,7 @@ def calculate_pid(K, tau, theta, tau_c):
     return Kc, tau_I, tau_D
 
 def main():
-    st.title("FOPTD Controller Parameter Calculator")
+    st.title("Online Calculator for Determination of IMC Controller Settings based on FOPTD model")
 
     # Input panel on the left
     with st.sidebar:
